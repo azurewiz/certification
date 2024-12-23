@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Certifications</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+        }
+        header {
+            background-color: #344955;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        h1 {
+            margin: 0;
+        }
+        .certificates-container {
+            margin: 20px auto;
+            padding: 20px;
+            width: 90%;
+            max-width: 800px;
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        .scrollable {
+            display: flex;
+            overflow-x: auto;
+            gap: 20px;
+            padding: 10px 0;
+        }
+        .scrollable img {
+            max-height: 400px;
+            border-radius: 8px;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .scrollable img:hover {
+            transform: scale(1.05);
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+        }
+        .pdf-link {
+            text-align: center;
+            margin-top: 10px;
+        }
+        .pdf-link a {
+            color: #344955;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .pdf-link a:hover {
+            text-decoration: underline;
+        }
+        footer {
+            text-align: center;
+            margin-top: 20px;
+            color: #555;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>My Certifications</h1>
+        <p>Explore my professional achievements below!</p>
+    </header>
+    <div class="certificates-container">
+        <div class="scrollable">
+            <!-- Replace 'certificate1.png', 'certificate2.png' with your actual image file paths -->
+            <img src="https://github.com/azurewiz/certification/blob/main/certification/images/aws%20acc.png" alt="aws accreditial">
+            <img src="https://github.com/azurewiz/certification/blob/main/certification/images/aws%20cloud%20prac..png" alt="aws cloud practitioner">
+            <img src="https://github.com/azurewiz/certification/blob/main/certification/images/aws%20cloud.png" alt="aws cloud economics">
+            <img src="https://github.com/azurewiz/certification/blob/main/certification/images/aws%20data%20anly..png" alt="aws data analytics">
+            <img src="https://github.com/azurewiz/certification/blob/main/certification/images/aws%20db.png" alt="aws database">
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2024 Sai Arvind Arun</p>
+    </footer>
+</body>
+</html>
